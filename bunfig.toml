@@ -1,0 +1,6 @@
+[install]
+# 开发时 @hxflow/workflow 走本地 link
+[install.overrides]
+
+[install.scopes]
+"@hxflow" = { token = "", url = "https://npm.pkg.github.com/" }
