@@ -1,7 +1,7 @@
 {
   "name": "@hxflow/agent",
   "version": "0.1.0",
-  "description": "hxflow agent container entrypoint — pi SDK + hxflow skill",
+  "description": "hxflow agent container entrypoint — pi SDK",
   "license": "MIT",
   "type": "module",
   "main": "./src/entrypoint.ts",
@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@earendil-works/pi-coding-agent": "*",
-    "@hxflow/shared": "file:../shared",
-    "@hxflow/workflow": "file:../workflow"
+    "@hxflow/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
